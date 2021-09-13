@@ -1,0 +1,197 @@
+
+.topbox {
+    min-height: 10px;
+    padding: 5px;
+    font-weight: 500;
+    color: white;
+    background: turquoise;
+  }
+
+.header {
+  color: gray
+}
+
+.containerbody{
+    width: auto;
+    height: auto;
+  }
+
+main {
+  background: lightgray;
+}
+
+.leftbox{
+    padding: 10px;
+    background: white;
+    width: auto;
+    margin-top:30px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:20px;
+    align-content:center;
+    box-sizing: border-box;
+  }
+  
+.rightbox{
+  padding: 10px; 
+  background: white;
+  width: auto;
+  margin-top:30px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:20px;
+  align-content:center;
+  box-sizing: border-box;
+  }
+
+.comparisonbox{
+  padding: 10px; 
+  background: white;
+  margin: auto;
+  width: auto;
+  /*margin-top:30px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:20px;*/
+  align-content:center;
+  box-sizing: border-box
+}
+
+.comparisonleft {
+  float:left;
+}
+
+.comparisonright {
+  float:right;
+}
+
+.databox {
+padding: 10px;
+background: white;
+width: 50%;
+margin: auto;
+align-content:center;
+box-sizing: border-box;
+}
+
+  .navbar {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 1px;
+    background: white;
+  }
+  
+  .navbar li {
+    display: d-block;
+    padding: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: gray
+    cursor: pointer;
+  }
+
+  .header2 {
+    font-size: 36px;
+    color:turquoise;
+  }
+
+  h3 {
+    font-size: 15px;
+    color: turquoise;
+  }
+  
+  p{
+    font-size: 18px;
+  }
+  
+
+ @media (max-width: 768px) {
+    .navbar li {
+      padding: 10px;
+    }
+    .leftbox {
+      margin-right: 22px;
+      margin-left: 22px;
+    }
+
+    .rightbox {
+      margin-right: 22px;
+      margin-left: 22px;
+    }
+
+    .navbar ul {
+      visibility: hidden;
+    }
+
+  /*WORK ON THIS
+    #nav-select {
+      visibility: visible;
+    }
+  }
+  
+  .col-1 {width: 8%;}
+  .col-2 {width: 17%;}
+  .col-3 {width: 24%;}
+  .col-4 {width: 32%;}
+  .col-5 {width: 40%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 60%;}
+  .col-8 {width: 65%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 82%;}
+  .col-11 {width: 92%;}
+  .col-12 {width: 100%;}
+  
+  @media only screen and (max-width: 768px) {
+
+      [class*="col-"] {
+          width: 100%;
+      }
+  }*/
+
+  /* [ON BIG SCREEN] */
+/* 
+/* (A) WRAPPER */
+/* #hamnav {
+  width: 100%;
+  background: #000;
+}
+
+/* (B) HORIZONTAL MENU ITEMS 
+#hamitems { display: flex; }
+#hamitems a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+#hamitems a:hover { background: #401408; }
+
+/* (C) HIDE HAMBURGER 
+#hamnav label, #hamburger { display: none; }
+
+/* [ON SMALL SCREENS] 
+@media screen and (max-width: 768px){
+  /* (A) BREAK INTO VERTICAL MENU 
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;*/
+  }
+  /* (B) SHOW HAMBURGER ICON 
+  #hamnav label { 
+    display: inline-block; 
+    
+    color: black;
+    background: white;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  /* (C) TOGGLE SHOW/HIDE MENU 
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; } */ 
